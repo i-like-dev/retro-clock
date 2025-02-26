@@ -41,8 +41,8 @@ const clockText = () =>{
        ampm
 
    // We get the days of the week and the months. (First day of the week Sunday)
-   let daysWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-   let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+   let daysWeek = ['週日', '週一', '週二', '週三', '週四', '週五', '週六']
+   let months = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
 
    // We add the corresponding dates
    dateDayWeek.innerHTML = `${daysWeek[dayWeek]}`
